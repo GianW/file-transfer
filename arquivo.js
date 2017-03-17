@@ -56,7 +56,7 @@ function copiaArquivo(origem, destino){
 
 function salvaBkp(original, ambiente){
 
-    var nomeSemExtensao = nomeArquivo.split('.')[0];
+    var nomeSemExtensao = nomeArquivo.replace(/.\w+$/,"");
     var dia  = new Date();
     var pastaBackup = nomeSemExtensao + "_" + dia.getDate() + "_" + (dia.getMonth() + 1) + "_" + dia.getFullYear();
     var path = (data.bkp + "/" + pastaBackup);
