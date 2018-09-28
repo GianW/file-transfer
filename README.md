@@ -1,9 +1,9 @@
 # File-transfer
 
-###Objetivo
+### Objetivo
 Para transferir arquivos de diretórios remotos (Dev e Produção), salvando uma versão de cada um e criando uma cópia do mais atual na pasta de desenvolvimento.
 
-###Config.json
+### Config.json
 Informar os diretórios de desenvolvimento, produção, backup e local para edição no arquivo `config.json` com o seguinte formato:
 
 ```json
@@ -16,7 +16,7 @@ Informar os diretórios de desenvolvimento, produção, backup e local para edi�
 
 ```
 
-###Executar
+### Executar
 
 No console execute `node arquivo nome_arquivo_com_extensao.html` obs. Informe a extensão do arquivo.
 
